@@ -8,10 +8,10 @@ skip.cmd
 ```
 
 para executar localmente, copie todo o repositório para a raiz do seu pendrive e durante a instalação
-pressione  Shift + F10 e execute o comando
+pressione  Shift + F10 e execute o comando (substitua d:\ para a letra correspondente ao seu pendrive)
 
 ```
-usb_bypass.cmd
+d:\usb_bypass.cmd
 ```
 
 Esse script vai pular todo o processo de OOBE, incluindo a conta da Microsoft e qualquer pergunta durante o processo de configuração. Ainda será possível selecionar o idioma, região e layout do teclado.
