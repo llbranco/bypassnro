@@ -1,12 +1,18 @@
-# Chris Titus Tech's Bypass NRO on STEROIDS!?!?!?
+# Bypass NRO criado por Chris Titus Tech's mas tunado e com anabolizante
 
-From the OOBE Screen press Shift + F10
+durante a instalação do windows pressione Shift + F10 e execute os comandos
 
 ```
-curl -L christitus.com/bypass -o skip.cmd
+curl -L https://raw.githubusercontent.com/llbranco/bypassnro/refs/heads/main/bypass.cmd -o skip.cmd
 skip.cmd
 ```
 
-This will skip the entire OOBE process including microsoft account and ANY questions during the setup process. It still allows you to select your language, region, and keyboard layout.
+para executar localmente, copie todo o repositório para a raiz do seu pendrive e durante a instalação
+pressione  Shift + F10 e execute o comando
 
+```
+usb_bypass.cmd
+```
 
+Esse script vai pular todo o processo de OOBE, incluindo a conta da Microsoft e qualquer pergunta durante o processo de configuração. Ainda será possível selecionar o idioma, região e layout do teclado.
+tomei a liberdade de remover coisas do xml do Chris, inuteis para o meu cenário e inclui funções importantes para diversos outros cenários
