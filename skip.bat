@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set user=usuário
+set user=usuario
 net user %user% * /add
 net localgroup administrators %user% /add
 net localgroup administradores %user% /add
