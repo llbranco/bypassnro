@@ -24,3 +24,7 @@ d:\usb_bypass.cmd
 
 Esse script vai pular todo o processo de OOBE, incluindo a conta da Microsoft e qualquer pergunta durante o processo de configuração. Ainda será possível selecionar o idioma, região e layout do teclado.
 tomei a liberdade de remover coisas do xml do Chris, inuteis para o meu cenário e inclui funções importantes para diversos outros cenários
+
+outro comando util
+
+```setup.exe /Product server /compat IgnoreWarning /MigrateDrivers All ```
