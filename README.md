@@ -7,6 +7,14 @@ curl -L https://raw.githubusercontent.com/llbranco/bypassnro/refs/heads/main/byp
 skip.cmd
 ```
 
+ou
+
+```
+curl -L https://kutt.it/bypassnro -o skip.cmd
+skip.cmd
+```
+
+
 ## Executar de um pendrive
 
 para executar localmente, copie todo o repositório para a raiz do seu pendrive e durante a instalação
